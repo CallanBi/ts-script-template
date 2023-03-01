@@ -1,0 +1,15 @@
+{
+  "type": "node",
+  "request": "launch",
+  "name": "debug",
+  "runtimeArgs": [
+    "-r",
+    "ts-node/register"
+  ],
+  "args": [
+    "${workspaceFolder}/main.ts"
+  ],
+  "env": {
+    "TS_NODE_PROJECT": "tsconfig.json"
+  }
+}
